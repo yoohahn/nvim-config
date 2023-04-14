@@ -1,5 +1,5 @@
 # nvim
- 
+
 **WIP**
 
 A [Nerdfont](https://www.nerdfonts.com/font-downloads) like https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/JetBrainsMono.zip
