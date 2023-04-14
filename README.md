@@ -6,6 +6,6 @@ A [Nerdfont](https://www.nerdfonts.com/font-downloads) like https://github.com/r
 
 Prerequisite: install [ripgrep](https://github.com/BurntSushi/ripgrep).
 
-´´´bash
+```bash
 git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim --depth 1
-´´´
+```
