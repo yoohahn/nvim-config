@@ -30,6 +30,7 @@ return require('packer').startup(function(use)
   use("nvim-treesitter/playground")
   use("mbbill/undotree")
   use("nvim-treesitter/nvim-treesitter-context");
+  use("lukas-reineke/indent-blankline.nvim");
 
   use {
     'VonHeikemen/lsp-zero.nvim',
