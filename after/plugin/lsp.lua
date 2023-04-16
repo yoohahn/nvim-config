@@ -59,6 +59,13 @@ end)
 
 lsp.setup()
 
+-- Format JS/TS on save
+vim.api.nvim_create_autocmd('BufWritePre', {
+  pattern = { '*.tsx', '*.ts', '*.jsx', '*.js' },
+  command = 'silent! EslintFixAll',
+  group = vim.api.nvim_create_augroup('MyAutocmdsJavaScripFormatting', {}),
+})
+
 vim.diagnostic.config({
     virtual_text = true
 })

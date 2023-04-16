@@ -15,7 +15,6 @@ map('n', '<leader>b6', '<Cmd>BufferGoto 6<CR>', opts)
 map('n', '<leader>b7', '<Cmd>BufferGoto 7<CR>', opts)
 map('n', '<leader>b8', '<Cmd>BufferGoto 8<CR>', opts)
 map('n', '<leader>b9', '<Cmd>BufferGoto 9<CR>', opts)
-map('n', '<leader>b0', '<Cmd>BufferLast<CR>', opts)
 
 -- Sort automatically by...
 map('n', '<leader>bb', '<Cmd>BufferOrderByDirectory<CR>', opts)
